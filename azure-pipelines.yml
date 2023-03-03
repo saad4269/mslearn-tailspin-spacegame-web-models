@@ -41,6 +41,6 @@ steps:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
     nuGetFeedType: 'internal'
-    publishVstsFeed: '$(System.TeamProject)/Tailspin.SpaceGame.Web.Models'
+    publishVstsFeed: '17f5f458-f038-4982-81b7-f5884fa7a361/e828edd9-1e5d-4bdb-b6ec-0a9fa1ab252b'
     allowPackageConflicts: true
   condition: succeeded()
